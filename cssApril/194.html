@@ -1,0 +1,143 @@
+<!-- Pseudo class selector
+1.link
+2.hover
+3. active
+4. visited -->
+
+
+<!-- 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo class selector</title>
+    <style>
+
+        .style1:link {
+            color: red;
+            text-decoration: none;
+        }
+
+        .style2:hover{
+            color: white;
+            background-color: black;
+        }
+
+        #style3:active{
+            color:greenyellow;
+            background-color: black;
+            text-decoration: none;
+        }
+
+        #style4:visited{
+            color: blue;
+            background-color: black;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.youtube.com" class="style1" > using link tag - You Tube</a> <hr>
+    <a href="https://www.makemytrip.com" class="style2">using hover tag - Make My Trip</a> <hr>
+    <a href="https://www.facebook.com" id="style3" >using active tag- Face Book</a> <hr>
+    <a href="https://www.instagram.com" id="style4">using visited tag- Instagram</a> <hr>
+    
+    
+</body>
+</html> -->
+
+
+
+
+<!-- Adjacent selector -->
+
+ <!-- <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adjacent selector</title>
+
+    <style>
+
+        body h1{
+            background-color: grey;
+            color: green;
+        }
+
+        ul li{
+            color: blueviolet;
+        }
+        div h1{
+            color: red;
+        } 
+        div p{
+            background: #000;
+            color: white;
+        }
+
+    </style>
+ </head>
+ <body>
+    <h1>Pentagon Space</h1>
+
+    <ul>
+        <li>Bhagya</li>
+        <li>Lakshmi</li>
+        <li>Passion</li>
+
+    </ul>
+
+    <div>
+        <h1>WELCOME</h1>
+        <p>welcome to css class</p>
+    </div>
+ </body>
+ </html> -->
+
+
+ <!-- Attribute tag -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute tag</title>
+
+    <style>
+
+        a[href]{
+            color:rgb(35, 163, 28) 
+        }
+
+        a[href^="https"]{
+            background-color:rgb(234, 255, 127);
+        }
+
+        a[href$=".com"]{
+            border: 5px solid blueviolet;
+        }
+
+        input[type="submit"]{
+       background-color: rgb(230, 180, 230);
+        }
+
+        input[placeholder]{
+            text-decoration: none;
+            
+        }
+    </style>
+ </head>
+ <body>
+
+    <a href="https://www.facebook.com">facebook</a> <br> <br>
+    <a href="https://example.com">example</a> <br> <br> 
+    <a href="instagram.in">instagram</a> <br> <br>
+    <a href="mailto:someone@gmail.com">mail</a> <br> <br> <hr>
+    <input type="text" placeholder="ENter a value"><br> <br>
+    <input type="submit"> <br>
+ </body>
+ </html>
