@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>outline property</title>
+    <style>
+        h1{
+            border: 4px dotted green ;
+            outline: 5px dashed red;
+            
+        }
+        h2{
+            border: 4px dotted green ;
+            outline: 3px dashed red;
+            outline-offset: 10px ;
+            margin: 30px;
+        }
+        input {
+            border-top-style: none;
+            border-right-style: none;
+            border-left-style: none;
+
+            outline-style: none;
+            
+        }
+
+        #top{
+            border: 5px solid rgb(121, 121, 229);
+            padding-top: 10px;
+        }
+
+
+        #bottom{
+            border: 5px solid rgb(121, 121, 229);
+            padding-bottom: 10px;
+        }
+
+        #left{
+            border: 5px solid rgb(121, 121, 229);
+            padding-left: 10px;
+        }
+
+
+        #right{
+            border: 5px solid rgb(121, 121, 229);
+            padding-right: 10px;
+        }
+
+        #top-bottom_and_left-right{
+            border: 5px solid pink;
+            padding: 20px 80px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Outline property</h1>
+    <br><br>
+
+    <h2> outline offset for space between border and outline</h2>
+
+   <input type="text" placeholder="outline removed after click"> input
+
+   
+   <!-- boxmodel including margin, padding -->
+   <h3>Padding properties:</h2>
+    <p id="top"> padding top</p>
+    <p id="bottom">padding bottom</p>
+    <p id="left">padding left</p>
+    <p id="right" >padding right</p>
+
+    <p id="top-bottom_and_left-right">top-bottom and left-right</p>
+</body>
+</html>
